@@ -1,4 +1,4 @@
-##Movie Recommender Systems
+## Movie Recommender Systems
 
 GroupLens Research has collected and made available rating data sets from the MovieLens web site (http://movielens.org). 
 The data sets were collected over various periods of time, depending on the size of the set.
@@ -7,20 +7,20 @@ Recommendation Engines try to make a product or service recommendation to people
 These datasets can be used to model and recommend users with the movie choices based on their interest. we have used Content based, Collaborative based and Hybrid models to implement the recommendation system.
 We have used surprise API to measure the RMSE and the acuracy of the model. 
 
-##Details about Dataset
+## Details about Dataset
 
-Datasets:
+#### Datasets:
 
 1) we have used Movie lens dataset for the building recommender systems 
 2) Dataset can be downloaded from link: https://www.kaggle.com/rounakbanik/the-movies-dataset
 
-##Types of data:
+## Types of data:
 
 Full dataset: This dataset consists of 26,000,000 ratings by 270,000 users for 45,000 movies.
 
 Sample dataset: we have taken The subset of 100,000 ratings from 700 users on 9,000 movies for building recommender system.
 
-##Data description:
+## Data description:
 
 The data are contained in the following files:
 
@@ -46,7 +46,7 @@ Suprise Library: we have used Collaborate filtering using Suprise Library API to
 Hybrid Model: By using the features from content based and Colloborative models we have implemented Hybrid Recommendation System.
 
 
-##Dependencies:
+## Dependencies:
 
 Jupyter Notebook
 Python >=3.5
@@ -57,9 +57,3 @@ ast module
 nltk
 scikit-learn
 scikit-surprise
-
-
-
-
-
-
