@@ -3,7 +3,7 @@
 GroupLens Research has collected and made available rating data sets from the MovieLens web site (http://movielens.org). 
 The data sets were collected over various periods of time, depending on the size of the set.
 
-Recommendation Engines try to make a product or service recommendation to people.In a way, Recommenders try to narrow down choices for people by presenting them with suggestions that they are most likely to buy or use.
+Recommendation Engines try to make a product or service recommendation to people. In a way, Recommenders try to narrow down choices for people by presenting them with suggestions that they are most likely to buy or use.
 These datasets can be used to model and recommend users with the movie choices based on their interest. we have used Content based, Collaborative based and Hybrid models to implement the recommendation system.
 We have used surprise API to measure the RMSE and the acuracy of the model. 
 
